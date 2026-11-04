@@ -1,0 +1,16 @@
+# Nam Hải CNC — namhaicnc.vn
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Bot A.I: cho phép đọc để thông tin Nam Hải CNC được trích dẫn đúng (có thể đổi thành Disallow)
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://namhaicnc.vn/sitemap-index.xml
